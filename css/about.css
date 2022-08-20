@@ -1,0 +1,79 @@
+*{
+    /* box-sizing: border-box; */
+    text-transform: capitalize;
+}
+.imagesdetails{
+padding: 40px;
+height: 380px;
+left: -12px;
+position: relative;
+border: 3px solid rgb(240, 234, 234);
+width: 300px;
+}
+
+.imagesdetails img{
+border-radius: 40px;
+position: relative;
+left: 30px;
+}
+
+.imagesdetails h5{
+    position: relative;
+top: 10px;
+padding: 6px;
+    font-weight: 800;
+    position: relative;
+left: 10px;
+}
+.imagesdetails p{
+    position: relative;
+top: 4px;
+text-transform: lowercase;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.imagesdetails .pp{
+    font-weight: 800;
+    position: relative;
+    top: -10px;
+
+}
+.imagesdetails .pd{
+    position: relative;
+    top: -30px;
+}
+
+.classbtn{
+    position: relative;
+    left: -20px;
+    bottom: 30px;
+}
+.imagesdetails button{
+    font-weight: 800;
+width: 250px ;
+border: 1px solid rgb(194, 188, 188);
+height: 35px;
+
+}
+
+.container{
+    background: rgb(250, 247, 247);
+
+}
+.row{
+    padding: 25px;
+    position: relative;
+    height: 120px;
+}
+
+.firstflex::after{
+content: '';
+width: 2px;
+  height: 10%;
+  background:rgb(230, 224, 224);
+  position: absolute;
+  left:110px;
+  top: 210px;
+}
+.detailssecond{
+    font-weight: bolder !important;
+}
